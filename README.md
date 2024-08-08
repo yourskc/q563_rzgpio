@@ -1,6 +1,9 @@
 # q563_rzgpio
 
-Purpose : A Qt Quick Project demos how to connect to PMOD buttons and leds for Renesas RZ/G2L.
+Purpose : A Qt Quick Project demo how to connect to PMOD buttons and leds for Renesas RZ/G2L.
+
+<img src="images/RZG2L_PMOD.JPG">
+
 
 ## 1. Prerequisites
 
@@ -10,13 +13,13 @@ Also prepare a Qt5.6.3 and Qt Creator with cross compiler environment on the Ubu
 
 For the above please follow the steps in this repo, 
 
-URL
+https://github.com/yourskc/q563_coffee
 
-Prepare a PMOD button board and a PMOD leds board for the test.
 
-Connect the PMOD boards as below.
+In addition, prepare a PMOD button board and a PMOD leds board for the test.
 
-Pic
+Connect the PMOD boards as the above picture. Led board connect to PMOD0 Pin#7-12, Button board connect to PMOD1 Pin #7-12.
+
 
 ## 2. Build 
 
@@ -37,6 +40,25 @@ on the RZ/G2L
 
 or, on the host
 > scp q563_rzgpio root@192.168.0.216:/home/root
+
+then run it on Renesas RZ/G2L
+
+>./q563_rzgpio
+
+Click on the buttons on the screen, the PMOD leds will be on/off accordingly.
+
+Press and release the PMOD buttons #2, #3, #4, the circles on the screen will change the color accordingly.
+
+<img src="images/q563_rzgpio.png">
+
+
+## 4. Reference
+
+1. GPIO Sysfs Interface 
+
+https://www.kernel.org/doc/Documentation/gpio/sysfs.txt
+
+
 
 
 
