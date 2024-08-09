@@ -60,7 +60,9 @@ Press and release the PMOD buttons #2, #3, #4, the circles on the screen will ch
 
 https://www.kernel.org/doc/Documentation/gpio/sysfs.txt
 
+2. How to Control GPIO Hardware from C or C++
 
+https://www.ics.com/blog/how-control-gpio-hardware-c-or-c
 
 
 
