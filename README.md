@@ -35,7 +35,7 @@ You can also build this project with desktop kits settings first, and run it on 
 ## 3. Run
 
 Copy the executable file to RZ/G2L using scp command, for example 
-( replace with your ip and username )
+( replace them with your ip and username instead)
 
 on the RZ/G2L
 > scp skc@192.168.0.105:/home/skc/reneses_test/q563_rzgpio .
