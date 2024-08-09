@@ -11,7 +11,9 @@ Prepare a Renesas RZ/G2L board running a pre-build BSP image or yocto build imag
 
 Also install Qt5.6.3 and Qt Creator and setup the cross compiler environment in the Ubuntu 22.04.
 
-For the above please follow the steps in this repo, 
+I also has been tested on Windows 11 environment ( only desktop kits, not include RZG2L tool kits).
+
+Please follow the steps in this repo, 
 
 https://github.com/yourskc/q563_coffee
 
