@@ -9,7 +9,7 @@ Purpose : A Qt Quick Project demo how to connect to PMOD buttons and leds for Re
 
 Prepare a Renesas RZ/G2L board running a pre-build BSP image or yocto build image by using 'core-image-qt' . We will transfer and execute our code on it later.
 
-Also prepare a Qt5.6.3 and Qt Creator with cross compiler environment on the Ubuntu 22.04. 
+Also install Qt5.6.3 and Qt Creator and setup the cross compiler environment in the Ubuntu 22.04.
 
 For the above please follow the steps in this repo, 
 
