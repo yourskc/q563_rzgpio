@@ -49,7 +49,8 @@ void RzGPIO::Init()
          close(fd);
 
     }
-
+    Write(1, 0);
+    Write(2, 0);
 }
 
 void RzGPIO::Init_GPIO()
@@ -99,6 +100,7 @@ void RzGPIO::Write(int n, int Value)
     strcpy(r,"/sys/class/gpio/");
     strcat(r,Gpio[n].name);
     strcat(r,"/value");
+ qDebug() << "Write " << Gpio[n].name << "=" << Value;
 
     int fd = open(r, O_WRONLY);
     if (fd != -1) {         
