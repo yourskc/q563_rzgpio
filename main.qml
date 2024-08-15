@@ -81,9 +81,9 @@ ApplicationWindow {
         }
 
 
-    P1{id:p1;x:50; y:50}
+    P1{id:p1;x:45; y:50}
     P1{id:p2;x:100; y:50}
-    P1{id:p3;x:150; y:50}
+    P1{id:p3;x:155; y:50}
 
 
 
