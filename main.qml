@@ -58,7 +58,7 @@ ApplicationWindow {
         id: write_low
         text: qsTr("Led PMOD0-3")
         onClicked : {
-        if (thismain.leds,led2 == 0) {
+        if (thismain.leds.led2 == 0) {
             RzGPIO.Write(2, 1);
             thismain.leds.led2=1;
             }
